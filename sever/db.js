@@ -10,7 +10,7 @@ const db = new pg.Pool({
 
 try {
   db.connect(() => {
-    console.log("Connected to database!");
+    console.log("Connected to database!!");
   });
 } catch (err) {
   console.error(err.message);
